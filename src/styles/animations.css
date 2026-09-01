@@ -1,0 +1,18 @@
+.clip-reveal {
+  overflow: hidden;
+}
+
+.will-transform {
+  will-change: transform;
+}
+
+.will-opacity {
+  will-change: opacity;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .will-transform,
+  .will-opacity {
+    will-change: auto;
+  }
+}

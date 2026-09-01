@@ -1,0 +1,29 @@
+:root {
+  color-scheme: light;
+  --ivory: #f1eee7;
+  --cream: #e7e1d6;
+  --stone: #bcb5aa;
+  --ink: #20221f;
+  --charcoal: #1b1c19;
+  --forest: #172019;
+  --forest-soft: #27342a;
+  --tobacco: #6a4732;
+  --burgundy: #4d2228;
+  --brass: #9a8155;
+  --white: #faf8f2;
+  --muted-light: rgba(250, 248, 242, 0.68);
+  --muted-dark: rgba(32, 34, 31, 0.62);
+  --hairline-light: rgba(250, 248, 242, 0.22);
+  --hairline-dark: rgba(32, 34, 31, 0.18);
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Manrope', sans-serif;
+  --page-gutter: clamp(1.25rem, 4.2vw, 5.75rem);
+  --section-space: clamp(7rem, 12vw, 12rem);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --nav-height: 4.75rem;
+  --layer-grain: 80;
+  --layer-nav: 40;
+  --layer-overlay: 60;
+  --layer-cursor: 90;
+}
